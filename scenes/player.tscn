@@ -1,0 +1,262 @@
+[gd_scene load_steps=48 format=3 uid="uid://bgh0p22684sxg"]
+
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_bmehl"]
+[ext_resource type="Texture2D" uid="uid://b3438pkwh8gkt" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Attack_Special_0.png" id="1_ju7os"]
+[ext_resource type="Texture2D" uid="uid://bjl78uaj6krch" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Attack_Axe_Defence0_0.png" id="2_iqs7x"]
+[ext_resource type="Texture2D" uid="uid://c4nlfcdpb7s4m" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Attack_Special_1.png" id="2_lqmmi"]
+[ext_resource type="Texture2D" uid="uid://byi784ubxr4ey" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Attack_Axe_Defence0_1.png" id="3_f6614"]
+[ext_resource type="Texture2D" uid="uid://c7tllsox2gisd" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Attack_Special_2.png" id="3_w76gp"]
+[ext_resource type="Texture2D" uid="uid://ypjjqi18u8ke" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Attack_Special_3.png" id="4_rlwev"]
+[ext_resource type="Texture2D" uid="uid://bnm08nsxu3dp5" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Attack_Axe_Defence0_2.png" id="4_tuo1d"]
+[ext_resource type="Texture2D" uid="uid://b0x7r4k8jpm1v" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Attack_Axe_Defence0_3.png" id="5_nou6u"]
+[ext_resource type="Texture2D" uid="uid://tbqf855svgkm" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Death_Special_0.png" id="6_22ixd"]
+[ext_resource type="Texture2D" uid="uid://sdicmtdw7xpj" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Idle_Axe_Defence0_0.png" id="6_nu81i"]
+[ext_resource type="Texture2D" uid="uid://b1lji2as7pfrf" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Idle_Axe_Defence0_1.png" id="7_ae3h2"]
+[ext_resource type="Texture2D" uid="uid://cqp3uwe0bgtv4" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Death_Special_1.png" id="7_cqmd8"]
+[ext_resource type="Texture2D" uid="uid://y5mia2luwfqn" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Death_Special_2.png" id="8_55n7t"]
+[ext_resource type="Texture2D" uid="uid://di361bcmj5ko6" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Idle_Axe_Defence0_2.png" id="8_wl01f"]
+[ext_resource type="Texture2D" uid="uid://dgpch6we25bwj" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Death_Special_3.png" id="9_45ctr"]
+[ext_resource type="Texture2D" uid="uid://dpxl33u4edonf" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Idle_Axe_Defence0_3.png" id="9_nm7q2"]
+[ext_resource type="Texture2D" uid="uid://dsg0dylplcc0h" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Idle_Special_0.png" id="10_eh7mg"]
+[ext_resource type="Texture2D" uid="uid://drxbsko7dusde" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Walk_Axe_Defence0_0.png" id="10_kk4yg"]
+[ext_resource type="Texture2D" uid="uid://bkty5sxftsnoy" path="res://rogelike_dungeon_assets/Sprites/Player/Axe/Defence0/Player_Walk_Axe_Defence0_1.png" id="11_3qg3b"]
+[ext_resource type="Texture2D" uid="uid://dixqe26jme0fy" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Idle_Special_1.png" id="11_nslcl"]
+[ext_resource type="Texture2D" uid="uid://baqkenk54crjg" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Idle_Special_2.png" id="12_4u7jg"]
+[ext_resource type="Texture2D" uid="uid://cpqkiw8n1jerh" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Attack_Scepter_Defence0_0.png" id="12_7xr8c"]
+[ext_resource type="Texture2D" uid="uid://cerma77fojkfu" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Attack_Scepter_Defence0_1.png" id="13_o5ynx"]
+[ext_resource type="Texture2D" uid="uid://n0k15cxapsmy" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Idle_Special_3.png" id="13_pkt62"]
+[ext_resource type="Texture2D" uid="uid://dglx76qhp2h8l" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Attack_Scepter_Defence0_2.png" id="14_gxtgy"]
+[ext_resource type="Texture2D" uid="uid://bhogay00w2w3a" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Walk_Special_0.png" id="14_xapo1"]
+[ext_resource type="Texture2D" uid="uid://chotthcahk8sf" path="res://rogelike_dungeon_assets/Sprites/Player/Special/Player_Walk_Special_1.png" id="15_aix4f"]
+[ext_resource type="Texture2D" uid="uid://b1e80dkhsjqgj" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Attack_Scepter_Defence0_3.png" id="15_avoow"]
+[ext_resource type="Texture2D" uid="uid://cdld0h3edtrmn" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Idle_Scepter_Defence0_0.png" id="16_ourma"]
+[ext_resource type="Texture2D" uid="uid://01g756s1i7hu" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Idle_Scepter_Defence0_1.png" id="17_s7bvo"]
+[ext_resource type="Texture2D" uid="uid://bx7ucwgmt4m14" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Idle_Scepter_Defence0_2.png" id="18_lc2b1"]
+[ext_resource type="Texture2D" uid="uid://cyefpgba2bwcq" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Idle_Scepter_Defence0_3.png" id="19_ioaym"]
+[ext_resource type="Texture2D" uid="uid://c5kvchnx1a8mv" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Walk_Scepter_Defence0_0.png" id="20_yr37q"]
+[ext_resource type="Texture2D" uid="uid://bffvfsy5bmn7q" path="res://rogelike_dungeon_assets/Sprites/Player/Scepter/Defence0/Player_Walk_Scepter_Defence0_1.png" id="21_ffghi"]
+[ext_resource type="Texture2D" uid="uid://dlytc4dbgn4oh" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Attack_Sword_Defence0_0.png" id="30_pbn4u"]
+[ext_resource type="Texture2D" uid="uid://dgs6oo0q88m4k" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Attack_Sword_Defence0_1.png" id="31_5jq0h"]
+[ext_resource type="Texture2D" uid="uid://bf36x6ugxffap" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Attack_Sword_Defence0_2.png" id="32_voatt"]
+[ext_resource type="Texture2D" uid="uid://cjbdcq5qitrw" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Attack_Sword_Defence0_3.png" id="33_auukd"]
+[ext_resource type="Texture2D" uid="uid://cqxooueoauly2" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Idle_Sword_Defence0_0.png" id="34_tidc5"]
+[ext_resource type="Texture2D" uid="uid://tbufksonxo8e" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Idle_Sword_Defence0_1.png" id="35_bl8hm"]
+[ext_resource type="Texture2D" uid="uid://ke2faxg0c2ac" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Idle_Sword_Defence0_2.png" id="36_tsves"]
+[ext_resource type="Texture2D" uid="uid://xqnhlw5a6g5w" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Idle_Sword_Defence0_3.png" id="37_b14ar"]
+[ext_resource type="Texture2D" uid="uid://cuflk80131cjh" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Walk_Sword_Defence0_0.png" id="38_a73as"]
+[ext_resource type="Texture2D" uid="uid://vpv3to3tb5g5" path="res://rogelike_dungeon_assets/Sprites/Player/Sword/Defence0/Player_Walk_Sword_Defence0_1.png" id="39_mb15a"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dj2t0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_iqs7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_f6614")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_tuo1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nou6u")
+}],
+"loop": true,
+"name": &"axe_attack_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_nu81i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ae3h2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wl01f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_nm7q2")
+}],
+"loop": true,
+"name": &"axe_idle_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_kk4yg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_3qg3b")
+}],
+"loop": true,
+"name": &"axe_walk_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_7xr8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_o5ynx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_gxtgy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_avoow")
+}],
+"loop": true,
+"name": &"scepter_attack_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_ourma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_s7bvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_lc2b1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ioaym")
+}],
+"loop": true,
+"name": &"scepter_idle_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_yr37q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ffghi")
+}],
+"loop": true,
+"name": &"scepter_walk_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ju7os")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_lqmmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_w76gp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_rlwev")
+}],
+"loop": true,
+"name": &"special_attack_def0",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_22ixd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_cqmd8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_55n7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_45ctr")
+}],
+"loop": true,
+"name": &"special_death_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_eh7mg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_nslcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4u7jg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_pkt62")
+}],
+"loop": true,
+"name": &"special_idle_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_xapo1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_aix4f")
+}],
+"loop": true,
+"name": &"special_walk_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_pbn4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_5jq0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_voatt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_auukd")
+}],
+"loop": true,
+"name": &"sword_attack_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_tidc5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_bl8hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_tsves")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_b14ar")
+}],
+"loop": true,
+"name": &"sword_idle_def0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("38_a73as")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_mb15a")
+}],
+"loop": true,
+"name": &"sword_walk_def0",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m6307"]
+radius = 1.64059
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_bmehl")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_dj2t0")
+animation = &"scepter_walk_def0"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2.24786, 41.0512)
+scale = Vector2(-15.8073, 15.2375)
+shape = SubResource("CircleShape2D_m6307")
